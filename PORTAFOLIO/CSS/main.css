@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat';
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+#jvp{
+    padding-top: 10%;
+}
+#jve{
+    padding-top: 9%;
+}
+#jvh{
+    padding-top: 9%;
+}
+#jvc{
+    padding-top: 9%;
+}
+#jvco{
+    padding-top: 10%;
+}
+
+
+
+#navbarSupportedContent a{
+    text-align: center;
+    color:#8a0000
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    margin-top: 10%;
+}
+
+
+
+.nav-item a:hover{
+    text-decoration: underline;
+    padding: 5px 10px;
+    border: #8a0000 solid;
+    border-radius: 15px;
+}
+
+#perfil{
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px 15px;
+    color:rgb(0, 0, 0);
+    display: flex;
+}
+
+#perfil .perfil .titulo-seccion{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #8a0000;
+    text-decoration:underline;
+    text-decoration-color:#000000;
+    text-decoration-thickness: 5px;
+    text-align: center;
+}
+
+#perfil .perfil h2{
+    color: #8a5e00;
+    font-size: 34px;
+    font-weight:bold;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+#perfil .perfil h2 span{
+    color: #8a0000;
+}
+
+#perfil .perfil h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #8a5e00;
+
+}
+
+#perfil .perfil p {
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 12px;
+    width: 110%;
+}
+
+#perfil .col-md img{
+    background-color: #fcfcfc;
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 10%;
+
+}
+
+#perfil .perfil a{
+    display: flex;
+    text-decoration: none;
+    color:#000000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid;
+    margin-top: 30px;
+    transition: .5s;
+    justify-content: center;
+}
+
+#perfil .perfil a:hover{
+    background-color:#8a0000;
+    color: #ffffff;
+}
+
+#experiencia h1{
+    color: #ffae00;
+    text-align: center;
+    background-color: #8a0000;
+}
+
+body{
+    background-color: rgb(255, 244, 88);
+}
+
+.details span{
+    color: rgb(255, 145, 0);
+}
+
+.row p{
+    color: white;
+}
+.wrapper{
+    max-width: 1080px;
+    margin: 50px auto;
+    padding: 0 20px;
+
+}
+
+.wrapper .center-line{
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    background-color: black ;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrapper .row{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.wrapper .row-1{
+    justify-content: flex-start;
+}
+
+.wrapper .row-2{
+    justify-content: flex-end;
+}
+
+.wrapper .row section{
+    background-color: rgb(104, 0, 0);
+    border-radius: 5px;
+    width: calc(50% - 40px);
+    padding: 20px;
+    position: relative;
+}
+
+.wrapper .row section::before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    top: 28px;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.row-1 section::before{
+    right: -7px;
+}
+.row-2 section::before{
+    left: -7px;
+}
+
+.row section .details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row section .details .title{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.row section p{
+    margin: 10px 0 17px 0;
+}
+
+.habilidades h1{
+    background-color: #8a0000;
+    color: #ffae00;
+    text-align: center;
+
+}
+
+#habilidades .habilidades .container{
+    align-items: center;
+    margin: 10px;
+}
+
+.col div{
+    display: flex;
+    text-decoration: none;
+    color:#000000;
+    border-radius: 30px;
+    padding: 5px;
+    border: 1px solid;
+    margin-top: 10%;
+    transition: .5s;
+    justify-content: center;
+    cursor: default;
+}
+
+.col div:hover{
+    background-color: #8a0000;
+    color: #ffffff;
+}
+
+#cursos h1{
+    color: #ffae00;
+    text-align: center;
+    background-color: #8a0000;
+}
+
+#cursos .row{
+    margin-top: 50px;
+}
+
+#cursos .row .card{
+    background-color: #fcfcfc;
+    border-radius: 6px;
+    box-shadow:0px 1px 10px #3e3e3e;
+    cursor: default;
+    transition: all 400ms ease;
+}
+#cursos .row .col-sm-6{
+    padding: 20px;
+}
+
+#cursos .row .card:hover{
+    box-shadow:5px 5px 20px #000000;
+    transform: translateY(-3%);
+
+}
+
+
+.card-body h5{
+    text-align: center;
+    text-decoration: underline;
+    font-weight:bold;
+    color: #8a0000;
+}
+
+.card-body p{
+    background-color:#ffae00;
+    border-radius: 5px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+    padding: 30px;
+}
+
+#contacto h1{
+    background-color: #8a0000;
+    color:#ffae00;
+    text-align: center;
+}
+
+#contacto h2{
+    color: #8a0000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#contacto p{
+    color: #000000;
+    font-size: 20px;
+}
+
+#contacto label{
+    color: #8a0000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contacto button{
+    margin-top: 10px;
+}
+
+
+#inicio a{
+    display: flex;
+    text-decoration: none;
+    color:#000000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid;
+    margin-top: 30px;
+    transition: .5s;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#inicio a{
+    background-color:#8a0000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+@media(max-width: 790px){
+    #jvp{
+        padding-top: 25%;
+    }
+    #jve{
+        padding-top: 20%;
+    }
+    #jvh{
+        padding-top: 25%;
+    }
+    #jvc{
+        padding-top: 10%;
+    }
+    #jvco{
+        padding-top: 10%;
+    }
+}
+
+@media(max-width: 790px){
+    .wrapper .center-line{
+        height: 100%;
+        left: 30px;
+    }
+    .wrapper .row{
+        margin: 30px 0 3px 60px;
+    }
+    .wrapper .row section{
+        width: 100%;
+    }
+    .row-1 section::before{
+        left: -7px;
+    }
+}
+
+@media(max-width: 440px){
+    .wrapper .center-line,
+    .row section::before{
+        display: none;
+    }
+    .wrapper .row{
+        margin: 10px 0;
+    }
+}
